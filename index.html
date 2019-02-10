@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pediatra, Wrocław, Anna Jakubowska</title>
+    <meta name="description" content="Dr Anna Jakubowska, wyjazdowa praktyka lekarska, pediatria, nefrologia dziecięca"/>
+    <meta name="keywords" content="INDYWIDUALNA SPECJALISTYCZNA PRAKTYKA LEKARSKA ANNA JAKUBOWSKA"/>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body id="top">
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="masthead clearfix">
+                <div class="inner">
+                    <a href="tel:+48691206484">
+                       <h3 class="masthead-brand">+48 691 206 484</h3>
+                    </a>
+                    <nav class="nav nav-masthead">
+                        <a class="nav-link nav-social" target="window" href="https://prod.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/SearchDetails.aspx?Id=baa6a135-d397-4777-8fa3-ac6fbb1cd1d6"><i class="fa fa-university" aria-hidden="true"></i></a>
+                    </nav>
+                </div>
+            </div>
+            <br>
+            <div class="inner cover">
+                <h1 class="cover-heading">Wizyty domowe</h1>
+                <h1 class="cover-heading">Anna Jakubowska</h1>
+                <p class="lead cover-copy">Dr n. med, Specjalizacja: pediatria, nefrologia dziecięca</p>
+                <a href="tel:+48691206484">
+                    <p class="lead cover-copy">+48 691 206 484</p>
+                </a>
+                <p class="lead">
+                    <button type="button" class="btn btn-lg btn-default btn-notify" data-toggle="modal"
+                            data-target="#subscribeModal">Kontakt
+                    </button>
+                </p>
+            </div>
+            <div class="mastfoot">
+                <div class="inner">
+                    <p>&copy; 
+                        Design: 
+                        <a href="https://hotbit.pl/" target="_blank">HotBit</a>, 
+                        <a href="https://templateflip.com/" target="_blank">TemplateFlip</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog"
+                 aria-labelledby="subscribeModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="subscribeModalLabel">Zapraszam do kontaktu:</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="javascript:sendMail();" id="contactForm" name="contactForm">
+                                <div class="form-group">
+                                    <label for="recipient-name" class="form-control-label">Twój adres e-mail</label>
+                                    <input type="text" class="form-control" id="recipient-name"
+                                           placeholder="your-name@example.com">
+                                    <br/>
+                                    <label for="recipient-name" class="form-control-label">Wiadomość</label>
+                                    <input type="text" class="form-control" id="recipient-message"
+                                           placeholder="...">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal" onclick="document.contactForm.submit()">Wyślij</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+</div>
+</body>
+</html>
